@@ -1,0 +1,15 @@
+{
+  "name": "jamena-farm",
+  "version": "1.0.0",
+  "description": "Backend + static host for the Jamena Farm website (signups, Paystack checkout, admin export)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
